@@ -1,0 +1,91 @@
+html{
+  position: relative;
+  overflow-y: hidden;
+  height: 100vh;
+}
+body { 
+  background-image: url(../b2.jpg);
+  font-family: "游明朝";
+  position: relative;
+  font-size: 3vh;
+  overflow-y: hidden;
+  height: 94vh;
+  margin: 0;
+  margin-top: 6vh;
+  padding: 0;
+}
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #000000;
+}
+a :hover{
+  text-shadow: 0px 1px 2px  rgb(19, 19, 19);
+}
+ul {
+  list-style: none;
+}
+h1:before{
+  content: "❖　";
+}
+h1:after{
+  content: "　❖";
+} 
+span{
+  text-combine-upright: all;
+}
+main {
+  background-image: url(../b1.jpg);
+  background-repeat: repeat;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  box-sizing: border-box;
+  height: 94%;
+  position: absolute;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  border-bottom: 4vh #080005;
+}
+nav {
+  background-color: transparent;
+  z-index: 10;
+  height: 100%;
+  position: fixed;
+  top: 14%;
+  right: 4%;
+}
+nav div{
+  position: relative;
+  height: 8vh;
+  right: 8%;
+  margin-bottom: 3vh;
+}
+nav div a img{
+  object-fit: fill;
+  height:100%;
+}
+nav ul{
+  text-orientation: upright ;
+  writing-mode: vertical-rl;
+  font-size: 2.4vh;
+  position: relative;
+  height: 64%;
+  width: 10vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+ }
+nav li {
+  text-align: center;
+  width: 50%;
+  padding-top: 4%;
+  padding-bottom: 2%;
+}
+footer{
+  background-image: url(../b2.jpg);
+  position: absolute;
+  width: 5vh;
+  height: 100%;
+}
