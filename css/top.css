@@ -1,0 +1,111 @@
+.gallery{
+  margin-right: 36%;
+  margin-left: 36%;
+}
+.gallery ul{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  position: relative;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.gallery ul li {
+  height: 48%;
+  width: auto;
+  padding: 1%;
+}
+.gallery img{
+  object-fit: fill;
+  height: 100%;
+  width: auto;
+}
+.news {
+  margin-right: 36%;
+  margin-left: 36%;
+}
+.news h1{
+  font-size: 3.6vh;
+  margin-top: 18%;
+  padding: 0;
+}
+.news article{
+  position: relative;
+  margin-right: 18%;
+  margin-left: 24%;
+  padding-top: 12%;
+  padding-bottom: 12%;
+}
+.news article img{
+  object-fit: cover;
+  height: 100%;
+}
+.news article b{
+  font-size: 3vh;
+  position: relative;
+  right: 6%;
+  padding-top: 12%;
+}
+.news article p{
+  font-size: 2.4vh;
+  position: relative;
+  padding-left: 16%;
+  right: 4%;
+  padding: 4%;
+}
+.news article time{
+  font-size: 2.4vh;
+  position: relative;
+  right: 4%;
+  padding-top: 48%;
+}
+.closed{
+  font-size: 2.8vh;
+  text-decoration: underline;
+  position: relative;
+  padding-top: 18%;
+}
+.location {
+  margin-right: 36%;
+  margin-left: 36%;
+}
+.location h1{
+  margin-top: 16%;
+  font-size: 3.8vh;
+}
+.location > div  { 
+  line-height: 120%;
+  position: relative;  
+  padding: 8%;
+  margin-right: 12%;
+}
+.location > div img{
+  height: 100%;
+  margin-right: 2%;
+}
+.location > div iframe{
+  height: 100%;
+  margin-right: 4%;
+}
+.location > div p{
+  font-size: 2.4vh;
+  position: relative;
+  padding-top: 6%;
+  padding-bottom: 6%
+}
+.location > div b{
+  font-size: 2.8vh;
+  margin-top: 12%;
+}
+.location > div b::before{
+  content: "❖　";
+}
+.copy{
+  position: relative;
+  margin-top: 56%;
+  left: 20%;
+}
+.copy b{
+  font-size: 2.6vh;
+}
