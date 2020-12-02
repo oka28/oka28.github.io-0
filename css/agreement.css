@@ -1,0 +1,43 @@
+.plivacy{
+  margin-right: 32%;
+  margin-left: 48%;
+  padding-top: 6%;
+  padding-bottom: 7%;
+}
+.plivacy h1{
+  margin-top: 8%;
+  margin-right: 12%;
+  margin-left: 24%;
+  font-size: 4vh;
+}
+.plivacy >p{
+  font-size: 2.3vh;
+  line-height: 180%;
+  position: relative;
+  padding: 0;
+}
+.plivacy ol{
+  counter-reset: term;
+  list-style-type: none;
+}
+.plivacy ol li{
+  font-size: 2.2vh;
+  line-height: 180%;
+  text-indent: -4.6vh;
+  position: relative;
+  margin-right: 32%;
+  margin-left: 24%;
+  padding: 0;
+}
+ol li::before{
+  counter-increment: term;
+  content: counter(term)'　';
+}
+.copy{
+  position: absolute;
+  margin-top: 42%;
+  left: 4%;
+}
+.copy b{
+  font-size: 2.6vh;
+}

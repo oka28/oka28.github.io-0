@@ -1,0 +1,42 @@
+.log{
+    margin-right:36%;
+    margin-left: 36%;
+}
+.log article{
+  position: relative;
+  margin-right: 32%;
+  margin-left: 32%;
+  padding-top: 14%;
+  padding-bottom: 14%;
+}
+.log article img{
+  object-fit: cover;
+  height: 100%;
+}
+.log article b{
+  font-size: 3vh;
+  position: relative;
+  padding-top: 12%;
+}
+.log article p{
+  font-size: 2.4vh;
+  position: relative;
+  padding: 8%;
+  padding-left: 16%;
+  right: 4%;
+  padding: 4%;
+}
+.log article time{
+  font-size: 2.4vh;
+  position: relative;
+  right: 4%;
+  padding-top: 48%;
+}
+.copy{
+  position: absolute;
+  margin-top: 52%;
+  left: 2%;
+}
+.copy b{
+  font-size: 2.6vh;
+}

@@ -1,0 +1,48 @@
+.notes{
+  margin-right: 32%;
+  margin-left: 24%;
+  padding-top: 10%;
+  padding-bottom: 6%;
+}
+.notes h1{
+  font-size: 3.4vh;
+  margin-top: 12%;
+  margin-left: 8%;
+}
+.notes p{
+  font-size: 2.6vh;
+  line-height: 180%;
+  position: relative;
+  padding: 0;
+}
+table{
+  margin-right: 32%;
+  margin-left: 36%;
+  font-size: 2.4vh;
+  height: 100%;
+  width: 540vh
+}
+caption{
+  margin-left: 12%;
+  font-weight: bold;
+  font-size: 3vh;
+}
+thead{
+  line-height: 120%;
+}
+th, td{
+  text-align: center;
+  margin: 0;
+  border-bottom:1px solid ;
+}
+.hol{
+  writing-mode: horizontal-tb;
+}
+.copy{
+  position: absolute;
+  margin-top: 52%;
+  left: 2%;
+}
+.copy b{
+  font-size: 2.6vh;
+}
