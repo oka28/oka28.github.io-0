@@ -6,7 +6,7 @@ html{
 body { 
   background-image: url(../b2.jpg);
   font-family: "游明朝";
-  position: relative;
+  position: fixed;
   font-size: 3vh;
   overflow-y: hidden;
   overflow-x:scroll;
